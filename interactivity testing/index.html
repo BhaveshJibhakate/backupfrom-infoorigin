@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div tabindex="0" onclick="testdiv()" onkeydown="testkeypress(event)">This is div to test</div>
+    <label tabindex="0" onclick="testlabel()">This is label to test</label>
+    <button draggable="true" onclick="testbutton()">click me</button>
+    <script>
+        function testdiv(){
+            console.log("you cliked div");
+            
+        }
+        function testlabel(){
+           console.log("you clicked label");
+            
+        }
+        function testbutton(){
+            console.log("you clicked a button");
+            
+        }
+        function testkeypress(event){
+            if(event.key=="ENTER" || event.key==" "){
+                console.log("either enter or space is pressed");
+                
+            }else{ console.log(`key you pressed is ${event.key}`);
+            }
+            
+        }
+
+    </script>
+</body>
+</html>

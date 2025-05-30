@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        button {
+            background: none; 
+             border: none;
+             display:inline-flex;
+             padding: 0;
+             margin: 0; 
+            /* text-decoration: none; */
+
+        }
+    </style>
+</head>
+<body> 
+       <div id="maincontainer" style="width: 100px; height: 50px; border: 1px solid black; background-color: aqua; overflow: auto;">
+        <div id="actualcontent" style="width: 250px; height: 100px; background-color: antiquewhite;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis dicta iusto facere sapiente quas? Ratione illo corporis ut deleniti beatae soluta aut, fugiat quod, minus natus, accusantium quidem ab perferendis.
+        Quaerat minus nam asperiores culpa inventore aut vel corporis officiis sit non sunt quia, velit aliquam earum. Quae explicabo similique libero aliquam! Temporibus dignissimos, dolores accusantium quis ratione eius quos?
+        blanditiis?</div>
+       </div>
+        <br>
+      <!-- <div width="25px" style="background-color: aqua;"></div>
+      <button style="background-color: antiquewhite;" 
+        >buttonbehave</button>
+
+      <a href="#" tabindex="-1">link to chekc anchor tag</a>
+      
+      <button tabindex="-1" onclick="handleclick()"><label>this is the label tag</label></button>
+      <button tabindex="-1"><a href="#">This is the new link</a></label></button> -->
+     <!-- you can use tabindex conditionally like {props.isEnabled ? "0":"-1"} -->
+      <script>
+          function handleclick(){
+            
+            console.log("button has been clicked");
+          }
+      </script>
+</body>
+</html>
